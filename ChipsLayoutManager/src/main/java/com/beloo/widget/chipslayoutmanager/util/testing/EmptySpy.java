@@ -1,6 +1,7 @@
 package com.beloo.widget.chipslayoutmanager.util.testing;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class EmptySpy implements ISpy {
     @Override

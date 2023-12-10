@@ -1,8 +1,9 @@
 package com.beloo.widget.chipslayoutmanager.anchor;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.beloo.widget.chipslayoutmanager.ChildViewsIterable;
 import com.beloo.widget.chipslayoutmanager.layouter.ICanvas;

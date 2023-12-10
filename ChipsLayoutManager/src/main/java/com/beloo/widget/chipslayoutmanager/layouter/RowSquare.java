@@ -1,6 +1,7 @@
 package com.beloo.widget.chipslayoutmanager.layouter;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 class RowSquare extends Square {
 

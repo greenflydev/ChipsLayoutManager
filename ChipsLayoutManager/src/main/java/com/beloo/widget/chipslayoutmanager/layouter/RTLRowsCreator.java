@@ -1,16 +1,10 @@
 package com.beloo.widget.chipslayoutmanager.layouter;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 
-import com.beloo.widget.chipslayoutmanager.ChipsLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.beloo.widget.chipslayoutmanager.anchor.AnchorViewState;
-import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifiersFactory;
-import com.beloo.widget.chipslayoutmanager.gravity.IRowStrategy;
-import com.beloo.widget.chipslayoutmanager.layouter.breaker.IBreakerFactory;
-import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
-import com.beloo.widget.chipslayoutmanager.layouter.criteria.ICriteriaFactory;
-import com.beloo.widget.chipslayoutmanager.layouter.placer.IPlacerFactory;
 
 class RTLRowsCreator implements ILayouterCreator {
 

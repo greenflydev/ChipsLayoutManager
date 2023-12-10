@@ -3,7 +3,8 @@ package com.beloo.widget.chipslayoutmanager.anchor;
 import android.graphics.Rect;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import java.util.Locale;
 
@@ -70,7 +71,7 @@ public class AnchorViewState implements Parcelable {
         parcel.writeParcelable(anchorViewRect, 0);
     }
 
-    public static final Parcelable.Creator<AnchorViewState> CREATOR = new Parcelable.Creator<AnchorViewState>() {
+    public static final Creator<AnchorViewState> CREATOR = new Creator<AnchorViewState>() {
         // unpack Object from Parcel
         public AnchorViewState createFromParcel(Parcel in) {
             return new AnchorViewState(in);

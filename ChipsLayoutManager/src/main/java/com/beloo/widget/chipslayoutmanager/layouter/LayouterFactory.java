@@ -1,16 +1,17 @@
 package com.beloo.widget.chipslayoutmanager.layouter;
 
 import android.graphics.Rect;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.beloo.widget.chipslayoutmanager.ChipsLayoutManager;
 import com.beloo.widget.chipslayoutmanager.anchor.AnchorViewState;
+import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
 import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifiersFactory;
 import com.beloo.widget.chipslayoutmanager.gravity.IRowStrategy;
 import com.beloo.widget.chipslayoutmanager.gravity.SkipLastRowStrategy;
 import com.beloo.widget.chipslayoutmanager.layouter.breaker.IBreakerFactory;
-import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
 import com.beloo.widget.chipslayoutmanager.layouter.criteria.ICriteriaFactory;
 import com.beloo.widget.chipslayoutmanager.layouter.placer.IPlacerFactory;
 

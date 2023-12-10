@@ -1,7 +1,8 @@
 package com.beloo.widget.chipslayoutmanager.layouter.placer;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 class RealAtEndPlacer extends AbstractPlacer implements IPlacer {
     RealAtEndPlacer(RecyclerView.LayoutManager layoutManager) {

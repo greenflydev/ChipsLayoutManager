@@ -1,6 +1,6 @@
 package com.beloo.chipslayoutmanager.sample.ui;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.RecyclerView;
 
 import com.beloo.chipslayoutmanager.sample.entity.ChipsEntity;
 

@@ -1,11 +1,10 @@
 package com.beloo.widget.chipslayoutmanager.layouter;
 
 import android.graphics.Rect;
-import android.support.annotation.NonNull;
 import android.util.Pair;
 import android.view.View;
 
-import java.util.Collections;
+import androidx.annotation.NonNull;
 
 class LeftLayouter extends AbstractLayouter {
 
