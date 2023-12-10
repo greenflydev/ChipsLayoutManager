@@ -1,30 +1,31 @@
 package com.beloo.widget.chipslayoutmanager.layouter;
 
 import android.graphics.Rect;
-import android.support.annotation.CallSuper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.Pair;
 import android.view.View;
+
+import androidx.annotation.CallSuper;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import com.beloo.widget.chipslayoutmanager.ChipsLayoutManager;
+import com.beloo.widget.chipslayoutmanager.IBorder;
+import com.beloo.widget.chipslayoutmanager.SpanLayoutChildGravity;
+import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
+import com.beloo.widget.chipslayoutmanager.gravity.IChildGravityResolver;
+import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifier;
+import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifiersFactory;
+import com.beloo.widget.chipslayoutmanager.gravity.IRowStrategy;
+import com.beloo.widget.chipslayoutmanager.layouter.breaker.ILayoutRowBreaker;
+import com.beloo.widget.chipslayoutmanager.layouter.criteria.IFinishingCriteria;
+import com.beloo.widget.chipslayoutmanager.layouter.placer.IPlacer;
+import com.beloo.widget.chipslayoutmanager.util.AssertionUtils;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
-import com.beloo.widget.chipslayoutmanager.ChipsLayoutManager;
-import com.beloo.widget.chipslayoutmanager.IBorder;
-import com.beloo.widget.chipslayoutmanager.SpanLayoutChildGravity;
-import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifiersFactory;
-import com.beloo.widget.chipslayoutmanager.gravity.IRowStrategy;
-import com.beloo.widget.chipslayoutmanager.layouter.breaker.ILayoutRowBreaker;
-import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
-import com.beloo.widget.chipslayoutmanager.gravity.IChildGravityResolver;
-import com.beloo.widget.chipslayoutmanager.gravity.IGravityModifier;
-import com.beloo.widget.chipslayoutmanager.layouter.criteria.IFinishingCriteria;
-import com.beloo.widget.chipslayoutmanager.layouter.placer.IPlacer;
-import com.beloo.widget.chipslayoutmanager.util.AssertionUtils;
 
 /** this class performs measuring, calculation, and placing of views on border (layout manager) according to state criterias */
 public abstract class AbstractLayouter implements ILayouter, IBorder {

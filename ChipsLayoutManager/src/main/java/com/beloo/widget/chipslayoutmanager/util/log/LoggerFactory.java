@@ -1,8 +1,9 @@
 package com.beloo.widget.chipslayoutmanager.util.log;
 
-import android.support.annotation.NonNull;
 import android.util.SparseArray;
 import android.view.View;
+
+import androidx.annotation.NonNull;
 
 public class LoggerFactory {
     @NonNull

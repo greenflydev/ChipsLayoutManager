@@ -1,7 +1,5 @@
 package com.beloo.widget.chipslayoutmanager.util.log;
 
-import com.beloo.widget.chipslayoutmanager.BuildConfig;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,7 +9,7 @@ public class Log {
     private static LogSwitcher logSwitcher = new LogSwitcher();
 
     @SuppressWarnings("ConstantConditions")
-    private static LogWrapper log = BuildConfig.isLogEnabled ? new AndroidLog() : new SilentLog();
+    private static LogWrapper log = new AndroidLog(); //BuildConfig.isLogEnabled ? new AndroidLog() : new SilentLog();
 
     ///////////////////////////////////////////////////////////////////////////
     // default android log delegates

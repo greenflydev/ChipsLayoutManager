@@ -1,7 +1,6 @@
 package com.beloo.widget.chipslayoutmanager.layouter.breaker;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.*;
 
 import com.beloo.widget.chipslayoutmanager.cache.IViewCacheStorage;
 

@@ -1,11 +1,8 @@
 package com.beloo.widget.chipslayoutmanager.layouter.placer;
 
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
-import com.beloo.widget.chipslayoutmanager.R;
+import androidx.recyclerview.widget.RecyclerView;
 
 class DisappearingViewAtStartPlacer extends AbstractPlacer {
 

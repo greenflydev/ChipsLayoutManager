@@ -2,11 +2,12 @@ package com.beloo.widget.chipslayoutmanager.cache;
 
 import android.graphics.Rect;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.util.Pair;
 import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Iterator;
 import java.util.List;

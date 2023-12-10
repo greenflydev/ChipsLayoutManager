@@ -4,7 +4,7 @@ import android.support.test.espresso.ViewAction;
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
@@ -99,7 +99,7 @@ public class FewChipsRowTest {
     }
 
     /**
-     * test, that {@link android.support.v7.widget.LinearLayoutManager#onLayoutChildren} isn't called infinitely
+     * test, that {@link androidx.appcompat.widget.LinearLayoutManager#onLayoutChildren} isn't called infinitely
      */
     @Test
     public void onLayoutChildren_afterActivityStarted_onLayoutCallLimited() throws Exception {

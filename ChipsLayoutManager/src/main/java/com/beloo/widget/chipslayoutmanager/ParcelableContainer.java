@@ -3,10 +3,10 @@ package com.beloo.widget.chipslayoutmanager;
 import android.content.res.Configuration;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.SparseArray;
+
+import androidx.annotation.IntRange;
+import androidx.annotation.Nullable;
 
 import com.beloo.widget.chipslayoutmanager.anchor.AnchorViewState;
 import com.beloo.widget.chipslayoutmanager.cache.CacheParcelableContainer;
